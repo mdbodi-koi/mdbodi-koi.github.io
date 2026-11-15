@@ -1,10 +1,9 @@
 {
-  "action": "",
+  "action": "https://docs.google.com/forms/d/e/1FAIpQLSfhnv5kPNpnh78nl2td68klQzJ1PrWKc4vgUGyARX9Squd00w/formResponse",
   "fields": {
-    "reason": "",
-    "details": "",
-    "response": "",
-    "app": ""
-  },
-  "note": "action: the Google Form address ending in /formResponse. fields: the entry.NNN IDs of the four questions (Reason, Comment, Reported reply, App details)."
+    "reason": "entry.226892505",
+    "details": "entry.1792722251",
+    "response": "entry.1842641890",
+    "app": "entry.136245124"
+  }
 }
