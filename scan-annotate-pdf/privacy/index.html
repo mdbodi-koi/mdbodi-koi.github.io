@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy: Scan & Annotate PDF</title>
+<meta name="description" content="Privacy policy: Scan & Annotate PDF">
+<link rel="icon" href="../icon.png">
+<style>
+  :root { --bg: #e3e7ee; --card: #f7f8fa; --text: #141a26; --muted: #4a5468; --accent: #3346c9; --line: #c2c8d3; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e1117; --card: #1f2430; --text: #eceff5; --muted: #aeb6c6; --accent: #afc0ff; --line: #3a4252; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+  header img { width: 56px; height: 56px; border-radius: 14px; }
+  h1 { font-size: 26px; line-height: 1.25; margin: 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px 22px 18px; }
+  h2 { font-size: 18px; margin: 26px 0 6px; color: var(--accent); }
+  p, li { margin: 8px 0; }
+  a { color: var(--accent); }
+  .updated { color: var(--muted); font-size: 14px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 26px; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="../icon.png" alt=""><h1>Privacy policy: Scan & Annotate PDF</h1></header>
+<div class="card">
+<p class="updated">Last updated: 15 November 2026</p>
+<p>Scan &amp; Annotate PDF (&quot;the app&quot;) is an Android app for scanning documents to PDF and for reading, annotating, editing, signing and converting PDF and office documents, with an optional AI assistant. The app is developed by Dr Md Badiuzzaman (&quot;the developer&quot;, &quot;I&quot;), an individual developer based in Australia.</p>
+<p>In short: the app works on your phone. It has no user accounts, no advertising, and no analytics or tracking. The developer does not receive your documents. Information leaves your phone only when you use an optional online feature described below, and then it goes to the service you chose.</p>
+<h2>1. What the app uses on your phone</h2>
+<p>Documents and files: the app opens only the files you choose in Android’s file picker, or files you send to it from another app. It does not ask for storage permission and cannot see your other files.</p>
+<p>Camera, through the document scanner: scanning uses the Google ML Kit document scanner, which runs inside Google Play services. The app itself does not have camera permission. Google Play services controls the camera and returns the finished pages to the app. The pages are processed on your phone.</p>
+<p>Photos: when you insert an image or a signature photo, you choose it in Android’s photo picker. The app sees only the photo you pick.</p>
+<p>Clipboard: the app reads or writes the clipboard only when you copy or paste in the app.</p>
+<p>Text recognition (Make searchable): the words on scanned pages are recognised on your phone with Google ML Kit text recognition, which is built into the app. The page images are not uploaded.</p>
+<p>Read aloud: the text is spoken by the text-to-speech engine installed on your phone (for example Speech Services by Google). The app sends the text only to that engine on your phone. If you have chosen an online voice in Android settings, that engine’s own policy applies.</p>
+<p>Printing: when you print, the PDF is handed to Android’s print service and the printer or &quot;Save as PDF&quot; option you choose.</p>
+<h2>2. What the app stores on your phone</h2>
+<p>Settings, saved signatures, fonts you add, your comment bank, the Recent activity list (the last 300 things the app did, such as files saved, shared or printed, and problems), and a recovery copy of unsaved work (so it is not lost if Android closes the app in the background) are kept in the app’s private storage, which other apps cannot read.</p>
+<p>Signing ID (optional): if you set up digital signing, the app creates a signing key and certificate on your phone with the name, and optionally the email and organisation, that you type. The private key is encrypted with a key derived from your signing password (Argon2id) and then again with a key held in the Android Keystore. Your password is never saved. The certificate (your name, email and organisation if given, and the public key) is put into every PDF you sign, so anyone you send a signed PDF to can see it. Signers you mark as trusted are listed only on your phone.</p>
+<p>If you connect an AI provider, your API key is encrypted with a key held in the Android Keystore before it is saved. The key never leaves your phone except when it is sent to that provider to authorise your own requests.</p>
+<p>This data is excluded from Android backups. It stays on your phone until you delete it with Menu &gt; About &gt; Delete all app data, clear the app’s storage in Android settings, or uninstall the app.</p>
+<p>Documents, projects (.koi) and PDFs you save are written to the place you choose with Android’s save dialog.</p>
+<h2>3. Information that leaves your phone (optional features only)</h2>
+<p>AI Assistant (optional, off until you set it up). You can connect an AI provider with your own API key: Anthropic (Claude), OpenAI, Google (Gemini) or an OpenAI-compatible service whose address you enter, such as OpenRouter. When you send a request, the app sends directly from your phone to that provider: the text of the open document (and page images, or the PDF, for scanned pages), your message, any session context, other open documents you tick, and reference files you attach. Nothing is sent through the developer. Before sending, the app removes text in the document that a person cannot see (for example white or tiny text). The provider processes the request under its own privacy policy and terms, which you accept when you create your account and API key with them, and it may keep the data for the period its policy states. Requests to OpenAI are sent with the option not to store the response. Important: with free (unpaid) API keys, some providers may use what you send to improve their products; for example, Google’s Gemini API terms say that content sent with the unpaid quota is used to improve Google products and may be read by human reviewers. Do not send confidential documents (for example student work or personal information) with a free key, do not send documents you are not allowed to share with the provider, and follow your organisation’s rules.</p>
+<p>Citation lookup (optional). When you look up a DOI, the DOI is sent to Crossref (api.crossref.org) to get the publication details.</p>
+<p>Reporting an AI reply (optional). If you tap Report on an AI reply, the reason you pick, any comment you type, the reported reply and technical details (app version, AI provider and model) are sent to the developer through a Google Form, so that harmful or offensive AI output can be reviewed. No name, email address or document is included unless you type it into the comment. Google processes the form under Google’s privacy policy.</p>
+<p>Sharing and saving. When you share a file (PDF, Word, OpenDocument, pictures, text or a project), it goes to the app you choose in Android’s share sheet (for example Gmail or WhatsApp). When you save or export, the file goes to the location you choose. Menu &gt; Recent activity &gt; What left this phone lists these actions.</p>
+<p>ML Kit diagnostics. Google ML Kit (the document scanner and text recognition) may send limited technical information to Google (for example device model, operating system version, app package name and version, performance and error information) to operate and improve the service, as described in Google’s ML Kit data disclosure. It does not send your page images or recognised text.</p>
+<h2>4. What the developer collects</h2>
+<p>The developer does not collect, receive or sell any personal information, documents or usage data from the app. The only information the developer receives is what you choose to send: reports of AI replies (section 3) and emails you send.</p>
+<p>The app contains no advertising, analytics, crash-reporting or tracking software.</p>
+<h2>5. Security</h2>
+<p>All connections the app makes use encrypted HTTPS; unencrypted connections are blocked. API keys and the signing ID are encrypted at rest with the Android Keystore. Password-protected PDFs use AES-256 encryption; the app does not keep the passwords you type. Documents are processed on your phone unless you use an optional online feature.</p>
+<h2>6. Children</h2>
+<p>The app is a study and work tool for adults and students. It is not directed at children under 13, and the developer does not knowingly receive information from children.</p>
+<h2>7. Keeping and deleting information</h2>
+<p>Information on your phone: kept until you delete it (see section 2). Menu &gt; Recent activity &gt; Clear list empties the activity list; My signing ID &gt; Delete removes the signing ID.</p>
+<p>AI requests: kept by the provider you chose, under its policy. You can delete or revoke your API key in your provider account at any time.</p>
+<p>Reports of AI replies: kept only as long as needed to review them and improve the app, and for no longer than 24 months. To ask for a report to be deleted, email the developer with the approximate date and time you sent it.</p>
+<h2>8. Your rights</h2>
+<p>Depending on where you live (for example under the Australian Privacy Act 1988 or the EU and UK GDPR), you may have rights to access, correct or delete personal information. Because the developer does not hold personal information from the app other than voluntary reports and emails, most requests can be met by deleting the app’s data on your phone. For anything else, contact the developer.</p>
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes, the new version will be published at the same web address with a new date, and shown in the app.</p>
+<h2>10. Contact</h2>
+<p>Dr Md Badiuzzaman. Email: bodiuzzaman116@gmail.com</p>
+<h2>Links to the privacy policies of the services named above</h2><ul>
+<li><a href="https://www.anthropic.com/legal/privacy">Anthropic privacy policy</a></li>
+<li><a href="https://openai.com/policies/privacy-policy/">OpenAI privacy policy</a></li>
+<li><a href="https://policies.google.com/privacy">Google privacy policy (Gemini API, Google Forms, Google Play services)</a></li>
+<li><a href="https://ai.google.dev/gemini-api/terms">Gemini API additional terms</a></li>
+<li><a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a></li>
+<li><a href="https://openrouter.ai/privacy">OpenRouter privacy policy</a></li>
+<li><a href="https://www.crossref.org/operations-and-sustainability/privacy/">Crossref privacy</a></li>
+</ul>
+</div>
+<footer>Scan &amp; Annotate PDF for Android. Developer: Dr Md Badiuzzaman, <a href="mailto:bodiuzzaman116@gmail.com">bodiuzzaman116@gmail.com</a>.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "action": "",
+  "fields": {
+    "reason": "",
+    "details": "",
+    "response": "",
+    "app": ""
+  },
+  "note": "action: the Google Form address ending in /formResponse. fields: the entry.NNN IDs of the four questions (Reason, Comment, Reported reply, App details)."
+}
